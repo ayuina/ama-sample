@@ -1,0 +1,372 @@
+Name                                                        Type                                     Description
+----------------------------------------------------------  ---------------------------------------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AcrPush                                                     Microsoft.Authorization/roleDefinitions  acr push
+API Management Service Contributor                          Microsoft.Authorization/roleDefinitions  Can manage service and the APIs
+AcrPull                                                     Microsoft.Authorization/roleDefinitions  acr pull
+AcrImageSigner                                              Microsoft.Authorization/roleDefinitions  acr image signer
+AcrDelete                                                   Microsoft.Authorization/roleDefinitions  acr delete
+AcrQuarantineReader                                         Microsoft.Authorization/roleDefinitions  acr quarantine data reader
+AcrQuarantineWriter                                         Microsoft.Authorization/roleDefinitions  acr quarantine data writer
+API Management Service Operator Role                        Microsoft.Authorization/roleDefinitions  Can manage service but not the APIs
+API Management Service Reader Role                          Microsoft.Authorization/roleDefinitions  Read-only access to service and APIs
+Application Insights Component Contributor                  Microsoft.Authorization/roleDefinitions  Can manage Application Insights components
+Application Insights Snapshot Debugger                      Microsoft.Authorization/roleDefinitions  Gives user permission to use Application Insights Snapshot Debugger features
+Attestation Reader                                          Microsoft.Authorization/roleDefinitions  Can read the attestation provider properties
+Automation Job Operator                                     Microsoft.Authorization/roleDefinitions  Create and Manage Jobs using Automation Runbooks.
+Automation Runbook Operator                                 Microsoft.Authorization/roleDefinitions  Read Runbook properties - to be able to create Jobs of the runbook.
+Automation Operator                                         Microsoft.Authorization/roleDefinitions  Automation Operators are able to start, stop, suspend, and resume jobs
+Avere Contributor                                           Microsoft.Authorization/roleDefinitions  Can create and manage an Avere vFXT cluster.
+Avere Operator                                              Microsoft.Authorization/roleDefinitions  Used by the Avere vFXT cluster to manage the cluster
+Azure Kubernetes Service Cluster Admin Role                 Microsoft.Authorization/roleDefinitions  List cluster admin credential action.
+Azure Kubernetes Service Cluster User Role                  Microsoft.Authorization/roleDefinitions  List cluster user credential action.
+Azure Maps Data Reader                                      Microsoft.Authorization/roleDefinitions  Grants access to read map related data from an Azure maps account.
+Azure Stack Registration Owner                              Microsoft.Authorization/roleDefinitions  Lets you manage Azure Stack registrations.
+Backup Contributor                                          Microsoft.Authorization/roleDefinitions  Lets you manage backup service,but can't create vaults and give access to others
+Billing Reader                                              Microsoft.Authorization/roleDefinitions  Allows read access to billing data
+Backup Reader                                               Microsoft.Authorization/roleDefinitions  Can view backup services, but can't make changes
+Blockchain Member Node Access (Preview)                     Microsoft.Authorization/roleDefinitions  Allows for access to Blockchain Member nodes
+BizTalk Contributor                                         Microsoft.Authorization/roleDefinitions  Lets you manage BizTalk services, but not access to them.
+CDN Endpoint Contributor                                    Microsoft.Authorization/roleDefinitions  Can manage CDN endpoints, but cant grant access to other users.
+CDN Profile Contributor                                     Microsoft.Authorization/roleDefinitions  Can manage CDN profiles and their endpoints, but cant grant access to other users.
+CDN Profile Reader                                          Microsoft.Authorization/roleDefinitions  Can view CDN profiles and their endpoints, but cant make changes.
+Classic Network Contributor                                 Microsoft.Authorization/roleDefinitions  Lets you manage classic networks, but not access to them.
+Classic Storage Account Contributor                         Microsoft.Authorization/roleDefinitions  Lets you manage classic storage accounts, but not access to them.
+Classic Storage Account Key Operator Service Role           Microsoft.Authorization/roleDefinitions  Classic Storage Account Key Operators are allowed to list and regenerate keys on Classic Storage Accounts
+ClearDB MySQL DB Contributor                                Microsoft.Authorization/roleDefinitions  Lets you manage ClearDB MySQL databases, but not access to them.
+Classic Virtual Machine Contributor                         Microsoft.Authorization/roleDefinitions  Lets you manage classic virtual machines, but not access to them, and not the virtual network or storage account theyre connected to.
+Cognitive Services User                                     Microsoft.Authorization/roleDefinitions  Lets you read and list keys of Cognitive Services.
+Cognitive Services Data Reader (Preview)                    Microsoft.Authorization/roleDefinitions  Lets you read Cognitive Services data.
+Cognitive Services Contributor                              Microsoft.Authorization/roleDefinitions  Lets you create, read, update, delete and manage keys of Cognitive Services.
+CosmosBackupOperator                                        Microsoft.Authorization/roleDefinitions  Can submit restore request for a Cosmos DB database or a container for an account
+Contributor                                                 Microsoft.Authorization/roleDefinitions  Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.
+Cosmos DB Account Reader Role                               Microsoft.Authorization/roleDefinitions  Can read Azure Cosmos DB Accounts data
+Cost Management Contributor                                 Microsoft.Authorization/roleDefinitions  Can view costs and manage cost configuration (e.g. budgets, exports)
+Cost Management Reader                                      Microsoft.Authorization/roleDefinitions  Can view cost data and configuration (e.g. budgets, exports)
+Data Box Contributor                                        Microsoft.Authorization/roleDefinitions  Lets you manage everything under Data Box Service except giving access to others.
+Data Box Reader                                             Microsoft.Authorization/roleDefinitions  Lets you manage Data Box Service except creating order or editing order details and giving access to others.
+Data Factory Contributor                                    Microsoft.Authorization/roleDefinitions  Create and manage data factories, as well as child resources within them.
+Data Purger                                                 Microsoft.Authorization/roleDefinitions  Can purge analytics data
+Data Lake Analytics Developer                               Microsoft.Authorization/roleDefinitions  Lets you submit, monitor, and manage your own jobs but not create or delete Data Lake Analytics accounts.
+DevTest Labs User                                           Microsoft.Authorization/roleDefinitions  Lets you connect, start, restart, and shutdown your virtual machines in your Azure DevTest Labs.
+DocumentDB Account Contributor                              Microsoft.Authorization/roleDefinitions  Lets you manage DocumentDB accounts, but not access to them.
+DNS Zone Contributor                                        Microsoft.Authorization/roleDefinitions  Lets you manage DNS zones and record sets in Azure DNS, but does not let you control who has access to them.
+EventGrid EventSubscription Contributor                     Microsoft.Authorization/roleDefinitions  Lets you manage EventGrid event subscription operations.
+EventGrid EventSubscription Reader                          Microsoft.Authorization/roleDefinitions  Lets you read EventGrid event subscriptions.
+Graph Owner                                                 Microsoft.Authorization/roleDefinitions  Create and manage all aspects of the Enterprise Graph - Ontology, Schema mapping, Conflation and Conversational AI and Ingestions
+HDInsight Domain Services Contributor                       Microsoft.Authorization/roleDefinitions  Can Read, Create, Modify and Delete Domain Services related operations needed for HDInsight Enterprise Security Package
+Intelligent Systems Account Contributor                     Microsoft.Authorization/roleDefinitions  Lets you manage Intelligent Systems accounts, but not access to them.
+Key Vault Contributor                                       Microsoft.Authorization/roleDefinitions  Lets you manage key vaults, but not access to them.
+Knowledge Consumer                                          Microsoft.Authorization/roleDefinitions  Knowledge Read permission to consume Enterprise Graph Knowledge using entity search and graph query
+Lab Creator                                                 Microsoft.Authorization/roleDefinitions  Lets you create new labs under your Azure Lab Accounts.
+Log Analytics Reader                                        Microsoft.Authorization/roleDefinitions  Log Analytics Reader can view and search all monitoring data as well as and view monitoring settings, including viewing the configuration of Azure diagnostics on all Azure resources.
+Log Analytics Contributor                                   Microsoft.Authorization/roleDefinitions  Log Analytics Contributor can read all monitoring data and edit monitoring settings. Editing monitoring settings includes adding the VM extension to VMs; reading storage account keys to be able to configure collection of logs from Azure Storage; adding solutions; and configuring Azure diagnostics on all Azure resources.
+Logic App Operator                                          Microsoft.Authorization/roleDefinitions  Lets you read, enable and disable logic app.
+Logic App Contributor                                       Microsoft.Authorization/roleDefinitions  Lets you manage logic app, but not access to them.
+Managed Application Operator Role                           Microsoft.Authorization/roleDefinitions  Lets you read and perform actions on Managed Application resources
+Managed Applications Reader                                 Microsoft.Authorization/roleDefinitions  Lets you read resources in a managed app and request JIT access.
+Managed Identity Operator                                   Microsoft.Authorization/roleDefinitions  Read and Assign User Assigned Identity
+Managed Identity Contributor                                Microsoft.Authorization/roleDefinitions  Create, Read, Update, and Delete User Assigned Identity
+Management Group Contributor                                Microsoft.Authorization/roleDefinitions  Management Group Contributor Role
+Management Group Reader                                     Microsoft.Authorization/roleDefinitions  Management Group Reader Role
+Monitoring Reader                                           Microsoft.Authorization/roleDefinitions  Can read all monitoring data.
+Network Contributor                                         Microsoft.Authorization/roleDefinitions  Lets you manage networks, but not access to them.
+New Relic APM Account Contributor                           Microsoft.Authorization/roleDefinitions  Lets you manage New Relic Application Performance Management accounts and applications, but not access to them.
+Owner                                                       Microsoft.Authorization/roleDefinitions  Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.
+Reader                                                      Microsoft.Authorization/roleDefinitions  View all resources, but does not allow you to make any changes.
+Redis Cache Contributor                                     Microsoft.Authorization/roleDefinitions  Lets you manage Redis caches, but not access to them.
+Reader and Data Access                                      Microsoft.Authorization/roleDefinitions  Lets you view everything but will not let you delete or create a storage account or contained resource. It will also allow read/write access to all data contained in a storage account via access to storage account keys.
+Resource Policy Contributor                                 Microsoft.Authorization/roleDefinitions  Users with rights to create/modify resource policy, create support ticket and read resources/hierarchy.
+Scheduler Job Collections Contributor                       Microsoft.Authorization/roleDefinitions  Lets you manage Scheduler job collections, but not access to them.
+Search Service Contributor                                  Microsoft.Authorization/roleDefinitions  Lets you manage Search services, but not access to them.
+Security Manager (Legacy)                                   Microsoft.Authorization/roleDefinitions  This is a legacy role. Please use Security Administrator instead
+Security Reader                                             Microsoft.Authorization/roleDefinitions  Security Reader Role
+Spatial Anchors Account Contributor                         Microsoft.Authorization/roleDefinitions  Lets you manage spatial anchors in your account, but not delete them
+Site Recovery Contributor                                   Microsoft.Authorization/roleDefinitions  Lets you manage Site Recovery service except vault creation and role assignment
+Site Recovery Operator                                      Microsoft.Authorization/roleDefinitions  Lets you failover and failback but not perform other Site Recovery management operations
+Spatial Anchors Account Reader                              Microsoft.Authorization/roleDefinitions  Lets you locate and read properties of spatial anchors in your account
+Site Recovery Reader                                        Microsoft.Authorization/roleDefinitions  Lets you view Site Recovery status but not perform other management operations
+Spatial Anchors Account Owner                               Microsoft.Authorization/roleDefinitions  Lets you manage spatial anchors in your account, including deleting them
+SQL Managed Instance Contributor                            Microsoft.Authorization/roleDefinitions  Lets you manage SQL Managed Instances and required network configuration, but cant give access to others.
+SQL DB Contributor                                          Microsoft.Authorization/roleDefinitions  Lets you manage SQL databases, but not access to them. Also, you can't manage their security-related policies or their parent SQL servers.
+SQL Security Manager                                        Microsoft.Authorization/roleDefinitions  Lets you manage the security-related policies of SQL servers and databases, but not access to them.
+Storage Account Contributor                                 Microsoft.Authorization/roleDefinitions  Lets you manage storage accounts, including accessing storage account keys which provide full access to storage account data.
+SQL Server Contributor                                      Microsoft.Authorization/roleDefinitions  Lets you manage SQL servers and databases, but not access to them, and not their security -related policies.
+Storage Account Key Operator Service Role                   Microsoft.Authorization/roleDefinitions  Storage Account Key Operators are allowed to list and regenerate keys on Storage Accounts
+Storage Blob Data Contributor                               Microsoft.Authorization/roleDefinitions  Allows for read, write and delete access to Azure Storage blob containers and data
+Storage Blob Data Owner                                     Microsoft.Authorization/roleDefinitions  Allows for full access to Azure Storage blob containers and data, including assigning POSIX access control.
+Storage Blob Data Reader                                    Microsoft.Authorization/roleDefinitions  Allows for read access to Azure Storage blob containers and data
+Storage Queue Data Contributor                              Microsoft.Authorization/roleDefinitions  Allows for read, write, and delete access to Azure Storage queues and queue messages
+Storage Queue Data Message Processor                        Microsoft.Authorization/roleDefinitions  Allows for peek, receive, and delete access to Azure Storage queue messages
+Storage Queue Data Message Sender                           Microsoft.Authorization/roleDefinitions  Allows for sending of Azure Storage queue messages
+Storage Queue Data Reader                                   Microsoft.Authorization/roleDefinitions  Allows for read access to Azure Storage queues and queue messages
+Support Request Contributor                                 Microsoft.Authorization/roleDefinitions  Lets you create and manage Support requests
+Traffic Manager Contributor                                 Microsoft.Authorization/roleDefinitions  Lets you manage Traffic Manager profiles, but does not let you control who has access to them.
+User Access Administrator                                   Microsoft.Authorization/roleDefinitions  Lets you manage user access to Azure resources.
+Virtual Machine Contributor                                 Microsoft.Authorization/roleDefinitions  Lets you manage virtual machines, but not access to them, and not the virtual network or storage account they're connected to.
+Web Plan Contributor                                        Microsoft.Authorization/roleDefinitions  Lets you manage the web plans for websites, but not access to them.
+Website Contributor                                         Microsoft.Authorization/roleDefinitions  Lets you manage websites (not web plans), but not access to them.
+Azure Service Bus Data Owner                                Microsoft.Authorization/roleDefinitions  Allows for full access to Azure Service Bus resources.
+Azure Event Hubs Data Owner                                 Microsoft.Authorization/roleDefinitions  Allows for full access to Azure Event Hubs resources.
+Attestation Contributor                                     Microsoft.Authorization/roleDefinitions  Can read write or delete the attestation provider instance
+HDInsight Cluster Operator                                  Microsoft.Authorization/roleDefinitions  Lets you read and modify HDInsight cluster configurations.
+Cosmos DB Operator                                          Microsoft.Authorization/roleDefinitions  Lets you manage Azure Cosmos DB accounts, but not access data in them. Prevents access to account keys and connection strings.
+Hybrid Server Resource Administrator                        Microsoft.Authorization/roleDefinitions  Can read, write, delete, and re-onboard Hybrid servers to the Hybrid Resource Provider.
+Hybrid Server Onboarding                                    Microsoft.Authorization/roleDefinitions  Can onboard new Hybrid servers to the Hybrid Resource Provider.
+Azure Event Hubs Data Receiver                              Microsoft.Authorization/roleDefinitions  Allows receive access to Azure Event Hubs resources.
+Azure Event Hubs Data Sender                                Microsoft.Authorization/roleDefinitions  Allows send access to Azure Event Hubs resources.
+Azure Service Bus Data Receiver                             Microsoft.Authorization/roleDefinitions  Allows for receive access to Azure Service Bus resources.
+Azure Service Bus Data Sender                               Microsoft.Authorization/roleDefinitions  Allows for send access to Azure Service Bus resources.
+Storage File Data SMB Share Reader                          Microsoft.Authorization/roleDefinitions  Allows for read access to Azure File Share over SMB
+Storage File Data SMB Share Contributor                     Microsoft.Authorization/roleDefinitions  Allows for read, write, and delete access in Azure Storage file shares over SMB
+Private DNS Zone Contributor                                Microsoft.Authorization/roleDefinitions  Lets you manage private DNS zone resources, but not the virtual networks they are linked to.
+Storage Blob Delegator                                      Microsoft.Authorization/roleDefinitions  Allows for generation of a user delegation key which can be used to sign SAS tokens
+Desktop Virtualization User                                 Microsoft.Authorization/roleDefinitions  Allows user to use the applications in an application group.
+Storage File Data SMB Share Elevated Contributor            Microsoft.Authorization/roleDefinitions  Allows for read, write, delete and modify NTFS permission access in Azure Storage file shares over SMB
+Blueprint Contributor                                       Microsoft.Authorization/roleDefinitions  Can manage blueprint definitions, but not assign them.
+Blueprint Operator                                          Microsoft.Authorization/roleDefinitions  Can assign existing published blueprints, but cannot create new blueprints. NOTE: this only works if the assignment is done with a user-assigned managed identity.
+Microsoft Sentinel Contributor                              Microsoft.Authorization/roleDefinitions  Microsoft Sentinel Contributor
+Microsoft Sentinel Responder                                Microsoft.Authorization/roleDefinitions  Microsoft Sentinel Responder
+Microsoft Sentinel Reader                                   Microsoft.Authorization/roleDefinitions  Microsoft Sentinel Reader
+Policy Insights Data Writer (Preview)                       Microsoft.Authorization/roleDefinitions  Allows read access to resource policies and write access to resource component policy events.
+SignalR AccessKey Reader                                    Microsoft.Authorization/roleDefinitions  Read SignalR Service Access Keys
+SignalR/Web PubSub Contributor                              Microsoft.Authorization/roleDefinitions  Create, Read, Update, and Delete SignalR service resources
+Azure Connected Machine Onboarding                          Microsoft.Authorization/roleDefinitions  Can onboard Azure Connected Machines.
+Managed Services Registration assignment Delete Role        Microsoft.Authorization/roleDefinitions  Managed Services Registration Assignment Delete Role allows the managing tenant users to delete the registration assignment assigned to their tenant.
+App Configuration Data Owner                                Microsoft.Authorization/roleDefinitions  Allows full access to App Configuration data.
+App Configuration Data Reader                               Microsoft.Authorization/roleDefinitions  Allows read access to App Configuration data.
+Kubernetes Cluster - Azure Arc Onboarding                   Microsoft.Authorization/roleDefinitions  Role definition to authorize any user/service to create connectedClusters resource
+Experimentation Contributor                                 Microsoft.Authorization/roleDefinitions  Experimentation Contributor
+Cognitive Services QnA Maker Reader                         Microsoft.Authorization/roleDefinitions  Lets you read and test a KB only.
+Cognitive Services QnA Maker Editor                         Microsoft.Authorization/roleDefinitions  Lets you create, edit, import and export a KB. You cannot publish or delete a KB.
+Experimentation Administrator                               Microsoft.Authorization/roleDefinitions  Experimentation Administrator
+Remote Rendering Administrator                              Microsoft.Authorization/roleDefinitions  Provides user with conversion, manage session, rendering and diagnostics capabilities for Azure Remote Rendering
+Remote Rendering Client                                     Microsoft.Authorization/roleDefinitions  Provides user with manage session, rendering and diagnostics capabilities for Azure Remote Rendering.
+Managed Application Contributor Role                        Microsoft.Authorization/roleDefinitions  Allows for creating managed application resources.
+Security Assessment Contributor                             Microsoft.Authorization/roleDefinitions  Lets you push assessments to Security Center
+Tag Contributor                                             Microsoft.Authorization/roleDefinitions  Lets you manage tags on entities, without providing access to the entities themselves.
+Integration Service Environment Developer                   Microsoft.Authorization/roleDefinitions  Allows developers to create and update workflows, integration accounts and API connections in integration service environments.
+Integration Service Environment Contributor                 Microsoft.Authorization/roleDefinitions  Lets you manage integration service environments, but not access to them.
+Azure Kubernetes Service Contributor Role                   Microsoft.Authorization/roleDefinitions  Grants access to read and write Azure Kubernetes Service clusters
+Azure Digital Twins Data Reader                             Microsoft.Authorization/roleDefinitions  Read-only role for Digital Twins data-plane properties
+Azure Digital Twins Data Owner                              Microsoft.Authorization/roleDefinitions  Full access role for Digital Twins data-plane
+Hierarchy Settings Administrator                            Microsoft.Authorization/roleDefinitions  Allows users to edit and delete Hierarchy Settings
+FHIR Data Contributor                                       Microsoft.Authorization/roleDefinitions  Role allows user or principal full access to FHIR Data
+FHIR Data Exporter                                          Microsoft.Authorization/roleDefinitions  Role allows user or principal to read and export FHIR Data
+FHIR Data Reader                                            Microsoft.Authorization/roleDefinitions  Role allows user or principal to read FHIR Data
+FHIR Data Writer                                            Microsoft.Authorization/roleDefinitions  Role allows user or principal to read and write FHIR Data
+Experimentation Reader                                      Microsoft.Authorization/roleDefinitions  Experimentation Reader
+Object Understanding Account Owner                          Microsoft.Authorization/roleDefinitions  Provides user with ingestion capabilities for Azure Object Understanding.
+Azure Maps Data Contributor                                 Microsoft.Authorization/roleDefinitions  Grants access to read, write, and delete access to map related data from an Azure maps account.
+Cognitive Services Custom Vision Contributor                Microsoft.Authorization/roleDefinitions  Full access to the project, including the ability to view, create, edit, or delete projects.
+Cognitive Services Custom Vision Deployment                 Microsoft.Authorization/roleDefinitions  Publish, unpublish or export models. Deployment can view the project but cant update.
+Cognitive Services Custom Vision Labeler                    Microsoft.Authorization/roleDefinitions  View, edit training images and create, add, remove, or delete the image tags. Labelers can view the project but cant update anything other than training images and tags.
+Cognitive Services Custom Vision Reader                     Microsoft.Authorization/roleDefinitions  Read-only actions in the project. Readers cant create or update the project.
+Cognitive Services Custom Vision Trainer                    Microsoft.Authorization/roleDefinitions  View, edit projects and train the models, including the ability to publish, unpublish, export the models. Trainers cant create or delete the project.
+Key Vault Administrator                                     Microsoft.Authorization/roleDefinitions  Perform all data plane operations on a key vault and all objects in it, including certificates, keys, and secrets. Cannot manage key vault resources or manage role assignments. Only works for key vaults that use the 'Azure role-based access control' permission model.
+Key Vault Crypto User                                       Microsoft.Authorization/roleDefinitions  Perform cryptographic operations using keys. Only works for key vaults that use the 'Azure role-based access control' permission model.
+Key Vault Secrets Officer                                   Microsoft.Authorization/roleDefinitions  Perform any action on the secrets of a key vault, except manage permissions. Only works for key vaults that use the 'Azure role-based access control' permission model.
+Key Vault Secrets User                                      Microsoft.Authorization/roleDefinitions  Read secret contents. Only works for key vaults that use the 'Azure role-based access control' permission model.
+Key Vault Certificates Officer                              Microsoft.Authorization/roleDefinitions  Perform any action on the certificates of a key vault, except manage permissions. Only works for key vaults that use the 'Azure role-based access control' permission model.
+Key Vault Reader                                            Microsoft.Authorization/roleDefinitions  Read metadata of key vaults and its certificates, keys, and secrets. Cannot read sensitive values such as secret contents or key material. Only works for key vaults that use the 'Azure role-based access control' permission model.
+Key Vault Crypto Service Encryption User                    Microsoft.Authorization/roleDefinitions  Read metadata of keys and perform wrap/unwrap operations. Only works for key vaults that use the 'Azure role-based access control' permission model.
+Azure Arc Kubernetes Viewer                                 Microsoft.Authorization/roleDefinitions  Lets you view all resources in cluster/namespace, except secrets.
+Azure Arc Kubernetes Writer                                 Microsoft.Authorization/roleDefinitions  Lets you update everything in cluster/namespace, except (cluster)roles and (cluster)role bindings.
+Azure Arc Kubernetes Cluster Admin                          Microsoft.Authorization/roleDefinitions  Lets you manage all resources in the cluster.
+Azure Arc Kubernetes Admin                                  Microsoft.Authorization/roleDefinitions  Lets you manage all resources under cluster/namespace, except update or delete resource quotas and namespaces.
+Azure Kubernetes Service RBAC Cluster Admin                 Microsoft.Authorization/roleDefinitions  Lets you manage all resources in the cluster.
+Azure Kubernetes Service RBAC Admin                         Microsoft.Authorization/roleDefinitions  Lets you manage all resources under cluster/namespace, except update or delete resource quotas and namespaces.
+Azure Kubernetes Service RBAC Reader                        Microsoft.Authorization/roleDefinitions  Allows read-only access to see most objects in a namespace. It does not allow viewing roles or role bindings. This role does not allow viewing Secrets, since reading the contents of Secrets enables access to ServiceAccount credentials in the namespace, which would allow API access as any ServiceAccount in the namespace (a form of privilege escalation). Applying this role at cluster scope will give access across all namespaces.
+Azure Kubernetes Service RBAC Writer                        Microsoft.Authorization/roleDefinitions  Allows read/write access to most objects in a namespace.This role does not allow viewing or modifying roles or role bindings. However, this role allows accessing Secrets and running Pods as any ServiceAccount in the namespace, so it can be used to gain the API access levels of any ServiceAccount in the namespace. Applying this role at cluster scope will give access across all namespaces.
+Services Hub Operator                                       Microsoft.Authorization/roleDefinitions  Services Hub Operator allows you to perform all read, write, and deletion operations related to Services Hub Connectors.
+Object Understanding Account Reader                         Microsoft.Authorization/roleDefinitions  Lets you read ingestion jobs for an object understanding account.
+SignalR REST API Owner                                      Microsoft.Authorization/roleDefinitions  Full access to Azure SignalR Service REST APIs
+Collaborative Data Contributor                              Microsoft.Authorization/roleDefinitions  Can manage data packages of a collaborative.
+Device Update Reader                                        Microsoft.Authorization/roleDefinitions  Gives you read access to management and content operations, but does not allow making changes
+Device Update Administrator                                 Microsoft.Authorization/roleDefinitions  Gives you full access to management and content operations
+Device Update Content Administrator                         Microsoft.Authorization/roleDefinitions  Gives you full access to content operations
+Device Update Content Reader                                Microsoft.Authorization/roleDefinitions  Gives you read access to content operations, but does not allow making changes
+Cognitive Services Metrics Advisor Administrator            Microsoft.Authorization/roleDefinitions  Full access to the project, including the system level configuration.
+Cognitive Services Metrics Advisor User                     Microsoft.Authorization/roleDefinitions  Access to the project.
+Schema Registry Reader (Preview)                            Microsoft.Authorization/roleDefinitions  Read and list Schema Registry groups and schemas.
+Schema Registry Contributor (Preview)                       Microsoft.Authorization/roleDefinitions  Read, write, and delete Schema Registry groups and schemas.
+AgFood Platform Service Reader                              Microsoft.Authorization/roleDefinitions  Provides read access to AgFood Platform Service
+AgFood Platform Service Contributor                         Microsoft.Authorization/roleDefinitions  Provides contribute access to AgFood Platform Service
+AgFood Platform Service Admin                               Microsoft.Authorization/roleDefinitions  Provides admin access to AgFood Platform Service
+Managed HSM contributor                                     Microsoft.Authorization/roleDefinitions  Lets you manage managed HSM pools, but not access to them.
+Security Detonation Chamber Submitter                       Microsoft.Authorization/roleDefinitions  Allowed to create submissions to Security Detonation Chamber
+SignalR REST API Reader                                     Microsoft.Authorization/roleDefinitions  Read-only access to Azure SignalR Service REST APIs
+SignalR Service Owner                                       Microsoft.Authorization/roleDefinitions  Full access to Azure SignalR Service REST APIs
+Reservation Purchaser                                       Microsoft.Authorization/roleDefinitions  Lets you purchase reservations
+AzureML Metrics Writer (preview)                            Microsoft.Authorization/roleDefinitions  Lets you write metrics to AzureML workspace
+Storage Account Backup Contributor                          Microsoft.Authorization/roleDefinitions  Lets you perform backup and restore operations using Azure Backup on the storage account.
+Experimentation Metric Contributor                          Microsoft.Authorization/roleDefinitions  Allows for creation, writes and reads to the metric set via the metrics service APIs.
+Project Babylon Data Curator                                Microsoft.Authorization/roleDefinitions  The Microsoft.ProjectBabylon data curator can create, read, modify and delete catalog data objects and establish relationships between objects. This role is in preview and subject to change.
+Project Babylon Data Reader                                 Microsoft.Authorization/roleDefinitions  The Microsoft.ProjectBabylon data reader can read catalog data objects. This role is in preview and subject to change.
+Project Babylon Data Source Administrator                   Microsoft.Authorization/roleDefinitions  The Microsoft.ProjectBabylon data source administrator can manage data sources and data scans. This role is in preview and subject to change.
+Application Group Contributor                               Microsoft.Authorization/roleDefinitions  Contributor of the Application Group.
+Desktop Virtualization Reader                               Microsoft.Authorization/roleDefinitions  Reader of Desktop Virtualization.
+Desktop Virtualization Contributor                          Microsoft.Authorization/roleDefinitions  Contributor of Desktop Virtualization.
+Desktop Virtualization Workspace Contributor                Microsoft.Authorization/roleDefinitions  Contributor of the Desktop Virtualization Workspace.
+Desktop Virtualization User Session Operator                Microsoft.Authorization/roleDefinitions  Operator of the Desktop Virtualization Uesr Session.
+Desktop Virtualization Session Host Operator                Microsoft.Authorization/roleDefinitions  Operator of the Desktop Virtualization Session Host.
+Desktop Virtualization Host Pool Reader                     Microsoft.Authorization/roleDefinitions  Reader of the Desktop Virtualization Host Pool.
+Desktop Virtualization Host Pool Contributor                Microsoft.Authorization/roleDefinitions  Contributor of the Desktop Virtualization Host Pool.
+Desktop Virtualization Application Group Reader             Microsoft.Authorization/roleDefinitions  Reader of the Desktop Virtualization Application Group.
+Desktop Virtualization Application Group Contributor        Microsoft.Authorization/roleDefinitions  Contributor of the Desktop Virtualization Application Group.
+Desktop Virtualization Workspace Reader                     Microsoft.Authorization/roleDefinitions  Reader of the Desktop Virtualization Workspace.
+Disk Backup Reader                                          Microsoft.Authorization/roleDefinitions  Provides permission to backup vault to perform disk backup.
+Disk Restore Operator                                       Microsoft.Authorization/roleDefinitions  Provides permission to backup vault to perform disk restore.
+Disk Snapshot Contributor                                   Microsoft.Authorization/roleDefinitions  Provides permission to backup vault to manage disk snapshots.
+Microsoft.Kubernetes connected cluster role                 Microsoft.Authorization/roleDefinitions  Microsoft.Kubernetes connected cluster role.
+Security Detonation Chamber Submission Manager              Microsoft.Authorization/roleDefinitions  Allowed to create and manage submissions to Security Detonation Chamber
+Security Detonation Chamber Publisher                       Microsoft.Authorization/roleDefinitions  Allowed to publish and modify platforms, workflows and toolsets to Security Detonation Chamber
+Collaborative Runtime Operator                              Microsoft.Authorization/roleDefinitions  Can manage resources created by AICS at runtime
+CosmosRestoreOperator                                       Microsoft.Authorization/roleDefinitions  Can perform restore action for Cosmos DB database account with continuous backup mode
+FHIR Data Converter                                         Microsoft.Authorization/roleDefinitions  Role allows user or principal to convert data from legacy format to FHIR
+Quota Request Operator                                      Microsoft.Authorization/roleDefinitions  Read and create quota requests, get quota request status, and create support tickets.
+EventGrid Contributor                                       Microsoft.Authorization/roleDefinitions  Lets you manage EventGrid operations.
+Security Detonation Chamber Reader                          Microsoft.Authorization/roleDefinitions  Allowed to query submission info and files from Security Detonation Chamber
+Object Anchors Account Reader                               Microsoft.Authorization/roleDefinitions  Lets you read ingestion jobs for an object anchors account.
+Object Anchors Account Owner                                Microsoft.Authorization/roleDefinitions  Provides user with ingestion capabilities for an object anchors account.
+WorkloadBuilder Migration Agent Role                        Microsoft.Authorization/roleDefinitions  WorkloadBuilder Migration Agent Role.
+Azure Spring Cloud Data Reader                              Microsoft.Authorization/roleDefinitions  Allow read access to Azure Spring Cloud Data
+Cognitive Services Speech Contributor                       Microsoft.Authorization/roleDefinitions  Full access to Speech projects, including read, write and delete all entities, for real-time speech recognition and batch transcription tasks, real-time speech synthesis and long audio tasks, custom speech and custom voice.
+Cognitive Services Face Recognizer                          Microsoft.Authorization/roleDefinitions  Lets you perform detect, verify, identify, group, and find similar operations on Face API. This role does not allow create or delete operations, which makes it well suited for endpoints that only need inferencing capabilities, following 'least privilege' best practices.
+Media Services Account Administrator                        Microsoft.Authorization/roleDefinitions  Create, read, modify, and delete Media Services accounts; read-only access to other Media Services resources.
+Media Services Live Events Administrator                    Microsoft.Authorization/roleDefinitions  Create, read, modify, and delete Live Events, Assets, Asset Filters, and Streaming Locators; read-only access to other Media Services resources.
+Media Services Media Operator                               Microsoft.Authorization/roleDefinitions  Create, read, modify, and delete Assets, Asset Filters, Streaming Locators, and Jobs; read-only access to other Media Services resources.
+Media Services Policy Administrator                         Microsoft.Authorization/roleDefinitions  Create, read, modify, and delete Account Filters, Streaming Policies, Content Key Policies, and Transforms; read-only access to other Media Services resources. Cannot create Jobs, Assets or Streaming resources.
+Media Services Streaming Endpoints Administrator            Microsoft.Authorization/roleDefinitions  Create, read, modify, and delete Streaming Endpoints; read-only access to other Media Services resources.
+Stream Analytics Query Tester                               Microsoft.Authorization/roleDefinitions  Lets you perform query testing without creating a stream analytics job first
+AnyBuild Builder                                            Microsoft.Authorization/roleDefinitions  Basic user role for AnyBuild. This role allows listing of agent information and execution of remote build capabilities.
+IoT Hub Data Reader                                         Microsoft.Authorization/roleDefinitions  Allows for full read access to IoT Hub data-plane properties
+IoT Hub Twin Contributor                                    Microsoft.Authorization/roleDefinitions  Allows for read and write access to all IoT Hub device and module twins.
+IoT Hub Registry Contributor                                Microsoft.Authorization/roleDefinitions  Allows for full access to IoT Hub device registry.
+IoT Hub Data Contributor                                    Microsoft.Authorization/roleDefinitions  Allows for full access to IoT Hub data plane operations.
+Test Base Reader                                            Microsoft.Authorization/roleDefinitions  Let you view and download packages and test results.
+Search Index Data Reader                                    Microsoft.Authorization/roleDefinitions  Grants read access to Azure Cognitive Search index data.
+Search Index Data Contributor                               Microsoft.Authorization/roleDefinitions  Grants full access to Azure Cognitive Search index data.
+Storage Table Data Reader                                   Microsoft.Authorization/roleDefinitions  Allows for read access to Azure Storage tables and entities
+Storage Table Data Contributor                              Microsoft.Authorization/roleDefinitions  Allows for read, write and delete access to Azure Storage tables and entities
+DICOM Data Reader                                           Microsoft.Authorization/roleDefinitions  Read and search DICOM data.
+DICOM Data Owner                                            Microsoft.Authorization/roleDefinitions  Full access to DICOM data.
+EventGrid Data Sender                                       Microsoft.Authorization/roleDefinitions  Allows send access to event grid events.
+Disk Pool Operator                                          Microsoft.Authorization/roleDefinitions  Used by the StoragePool Resource Provider to manage Disks added to a Disk Pool.
+AzureML Data Scientist                                      Microsoft.Authorization/roleDefinitions  Can perform all actions within an Azure Machine Learning workspace, except for creating or deleting compute resources and modifying the workspace itself.
+Grafana Admin                                               Microsoft.Authorization/roleDefinitions  Built-in Grafana admin role
+Azure Connected SQL Server Onboarding                       Microsoft.Authorization/roleDefinitions  Microsoft.AzureArcDataserviceroletoaccesstheresourcesofMicrosoft.AzureArcDatastoredwithRPSAAS.
+Azure Relay Sender                                          Microsoft.Authorization/roleDefinitions  Allows for send access to Azure Relay resources.
+Azure Relay Owner                                           Microsoft.Authorization/roleDefinitions  Allows for full access to Azure Relay resources.
+Azure Relay Listener                                        Microsoft.Authorization/roleDefinitions  Allows for listen access to Azure Relay resources.
+Grafana Viewer                                              Microsoft.Authorization/roleDefinitions  Built-in Grafana Viewer role
+Grafana Editor                                              Microsoft.Authorization/roleDefinitions  Built-in Grafana Editor role
+Automation Contributor                                      Microsoft.Authorization/roleDefinitions  Manage azure automation resources and other resources using azure automation.
+Kubernetes Extension Contributor                            Microsoft.Authorization/roleDefinitions  Can create, update, get, list and delete Kubernetes Extensions, and get extension async operations
+Device Provisioning Service Data Reader                     Microsoft.Authorization/roleDefinitions  Allows for full read access to Device Provisioning Service data-plane properties.
+Device Provisioning Service Data Contributor                Microsoft.Authorization/roleDefinitions  Allows for full access to Device Provisioning Service data-plane operations.
+CodeSigning Certificate Profile Signer                      Microsoft.Authorization/roleDefinitions  Sign files with a certificate profile. This role is in preview and subject to change.
+Azure Spring Cloud Service Registry Reader                  Microsoft.Authorization/roleDefinitions  Allow read access to Azure Spring Cloud Service Registry
+Azure Spring Cloud Service Registry Contributor             Microsoft.Authorization/roleDefinitions  Allow read, write and delete access to Azure Spring Cloud Service Registry
+Azure Spring Cloud Config Server Reader                     Microsoft.Authorization/roleDefinitions  Allow read access to Azure Spring Cloud Config Server
+Azure Spring Cloud Config Server Contributor                Microsoft.Authorization/roleDefinitions  Allow read, write and delete access to Azure Spring Cloud Config Server
+Azure VM Managed identities restore Contributor             Microsoft.Authorization/roleDefinitions  Azure VM Managed identities restore Contributors are allowed to perform Azure VM Restores with managed identities both user and system
+Azure Maps Search and Render Data Reader                    Microsoft.Authorization/roleDefinitions  Grants access to very limited set of data APIs for common visual web SDK scenarios. Specifically, render and search data APIs.
+Azure Maps Contributor                                      Microsoft.Authorization/roleDefinitions  Grants access all Azure Maps resource management.
+Azure Arc VMware VM Contributor                             Microsoft.Authorization/roleDefinitions  Arc VMware VM Contributor has permissions to perform all VM actions.
+Azure Arc VMware Private Cloud User                         Microsoft.Authorization/roleDefinitions  Azure Arc VMware Private Cloud User has permissions to use the VMware cloud resources to deploy VMs.
+Azure Arc VMware Administrator role                         Microsoft.Authorization/roleDefinitions  Arc VMware VM Contributor has permissions to perform all connected VMwarevSphere actions.
+Cognitive Services LUIS Owner                               Microsoft.Authorization/roleDefinitions  Has access to all Read, Test, Write, Deploy and Delete functions under LUIS
+Cognitive Services Language Reader                          Microsoft.Authorization/roleDefinitions  Has access to Read and Test functions under Language portal
+Cognitive Services Language Writer                          Microsoft.Authorization/roleDefinitions  Has access to all Read, Test, and Write functions under Language Portal
+Cognitive Services Language Owner                           Microsoft.Authorization/roleDefinitions  Has access to all Read, Test, Write, Deploy and Delete functions under Language portal
+Cognitive Services LUIS Reader                              Microsoft.Authorization/roleDefinitions  Has access to Read and Test functions under LUIS.
+Cognitive Services LUIS Writer                              Microsoft.Authorization/roleDefinitions  Has access to all Read, Test, and Write functions under LUIS
+PlayFab Reader                                              Microsoft.Authorization/roleDefinitions  Provides read access to PlayFab resources
+Load Test Contributor                                       Microsoft.Authorization/roleDefinitions  View, create, update, delete and execute load tests. View and list load test resources but can not make any changes.
+Load Test Owner                                             Microsoft.Authorization/roleDefinitions  Execute all operations on load test resources and load tests
+PlayFab Contributor                                         Microsoft.Authorization/roleDefinitions  Provides contributor access to PlayFab resources
+Load Test Reader                                            Microsoft.Authorization/roleDefinitions  View and list all load tests and load test resources but can not make any changes
+Cognitive Services Immersive Reader User                    Microsoft.Authorization/roleDefinitions  Provides access to create Immersive Reader sessions and call APIs
+Lab Services Contributor                                    Microsoft.Authorization/roleDefinitions  The lab services contributor role
+Lab Services Reader                                         Microsoft.Authorization/roleDefinitions  The lab services reader role
+Lab Assistant                                               Microsoft.Authorization/roleDefinitions  The lab assistant role
+Lab Operator                                                Microsoft.Authorization/roleDefinitions  The lab operator role
+Lab Contributor                                             Microsoft.Authorization/roleDefinitions  The lab contributor role
+Security Admin                                              Microsoft.Authorization/roleDefinitions  Security Admin Role
+Web PubSub Service Owner (Preview)                          Microsoft.Authorization/roleDefinitions  Full access to Azure Web PubSub Service REST APIs
+Web PubSub Service Reader (Preview)                         Microsoft.Authorization/roleDefinitions  Read-only access to Azure Web PubSub Service REST APIs
+SignalR App Server                                          Microsoft.Authorization/roleDefinitions  Lets your app server access SignalR Service with AAD auth options.
+Virtual Machine User Login                                  Microsoft.Authorization/roleDefinitions  View Virtual Machines in the portal and login as a regular user.
+Virtual Machine Administrator Login                         Microsoft.Authorization/roleDefinitions  View Virtual Machines in the portal and login as administrator
+Azure Connected Machine Resource Administrator              Microsoft.Authorization/roleDefinitions  Can read, write, delete and re-onboard Azure Connected Machines.
+Backup Operator                                             Microsoft.Authorization/roleDefinitions  Lets you manage backup services, except removal of backup, vault creation and giving access to others
+Workbook Contributor                                        Microsoft.Authorization/roleDefinitions  Can save shared workbooks.
+Workbook Reader                                             Microsoft.Authorization/roleDefinitions  Can read workbooks.
+Monitoring Contributor                                      Microsoft.Authorization/roleDefinitions  Can read all monitoring data and update monitoring settings.
+Monitoring Metrics Publisher                                Microsoft.Authorization/roleDefinitions  Enables publishing metrics against Azure resources
+Purview role 1 (Deprecated)                                 Microsoft.Authorization/roleDefinitions  Deprecated role.
+Purview role 2 (Deprecated)                                 Microsoft.Authorization/roleDefinitions  Deprecated role.
+Purview role 3 (Deprecated)                                 Microsoft.Authorization/roleDefinitions  Deprecated role.
+Autonomous Development Platform Data Contributor (Preview)  Microsoft.Authorization/roleDefinitions  Grants permissions to upload and manage new Autonomous Development Platform measurements.
+Autonomous Development Platform Data Owner (Preview)        Microsoft.Authorization/roleDefinitions  Grants full access to Autonomous Development Platform data.
+Autonomous Development Platform Data Reader (Preview)       Microsoft.Authorization/roleDefinitions  Grants read access to Autonomous Development Platform data.
+Key Vault Crypto Officer                                    Microsoft.Authorization/roleDefinitions  Perform any action on the keys of a key vault, except manage permissions. Only works for key vaults that use the 'Azure role-based access control' permission model.
+Device Update Deployments Reader                            Microsoft.Authorization/roleDefinitions  Gives you read access to management operations, but does not allow making changes
+Device Update Deployments Administrator                     Microsoft.Authorization/roleDefinitions  Gives you full access to management operations
+Azure Arc VMware Private Clouds Onboarding                  Microsoft.Authorization/roleDefinitions  Azure Arc VMware Private Clouds Onboarding role has permissions to provision all the required resources for onboard and deboard vCenter instances to Azure.
+Chamber Admin                                               Microsoft.Authorization/roleDefinitions  Lets you manage everything under your HPC Workbench chamber.
+Microsoft Sentinel Automation Contributor                   Microsoft.Authorization/roleDefinitions  Microsoft Sentinel Automation Contributor
+CDN Endpoint Reader                                         Microsoft.Authorization/roleDefinitions  Can view CDN endpoints, but cant make changes.
+Chamber User                                                Microsoft.Authorization/roleDefinitions  Lets you view everything under your HPC Workbench chamber, but not make any changes.
+Cognitive Services Speech User                              Microsoft.Authorization/roleDefinitions  Access to the real-time speech recognition and batch transcription APIs, real-time speech synthesis and long audio APIs, as well as to read the data/test/model/endpoint for custom models, but cant create, delete or modify the data/test/model/endpoint for custom models.
+Windows Admin Center Administrator Login                    Microsoft.Authorization/roleDefinitions  Let's you manage the OS of your resource via Windows Admin Center as an administrator.
+Azure Kubernetes Service Policy Add-on Deployment           Microsoft.Authorization/roleDefinitions  Deploy the Azure Policy add-on on Azure Kubernetes Service clusters
+Guest Configuration Resource Contributor                    Microsoft.Authorization/roleDefinitions  Lets you read, write Guest Configuration Resource.
+Domain Services Reader                                      Microsoft.Authorization/roleDefinitions  Can view Azure AD Domain Services and related network configurations
+Domain Services Contributor                                 Microsoft.Authorization/roleDefinitions  Can manage Azure AD Domain Services and related network configurations
+DNS Resolver Contributor                                    Microsoft.Authorization/roleDefinitions  Lets you manage DNS resolver resources.
+Azure Arc Enabled Kubernetes Cluster User Role              Microsoft.Authorization/roleDefinitions  List cluster user credentials action.
+Data Operator for Managed Disks                             Microsoft.Authorization/roleDefinitions  Provides permissions to upload data to empty managed disks, read, or export data of managed disks (not attached to running VMs) and snapshots using SAS URIs and Azure AD authentication.
+AgFood Platform Sensor Partner Contributor                  Microsoft.Authorization/roleDefinitions  Provides contribute access to manage sensor related entities in AgFood Platform Service
+Compute Gallery Sharing Admin                               Microsoft.Authorization/roleDefinitions  This role allows user to share gallery to another subscription/tenant or share it to the public.
+Scheduled Patching Contributor                              Microsoft.Authorization/roleDefinitions  Provides access to manage maintenance configurations with maintenance scope InGuestPatch and corresponding configuration assignments
+DevCenter Dev Box User                                      Microsoft.Authorization/roleDefinitions  Provides access to create and manage dev boxes.
+DevCenter Project Admin                                     Microsoft.Authorization/roleDefinitions  Provides access to manage project resources.
+Virtual Machine Local User Login                            Microsoft.Authorization/roleDefinitions  View Virtual Machines in the portal and login as a local user configured on the arc server
+Azure Arc ScVmm Private Clouds Onboarding                   Microsoft.Authorization/roleDefinitions  Azure Arc ScVmm Private Clouds Onboarding role has permissions to provision all the required resources for onboard and deboard vmm server instances to Azure.
+Azure Arc ScVmm VM Contributor                              Microsoft.Authorization/roleDefinitions  Arc ScVmm VM Contributor has permissions to perform all VM actions.
+Azure Arc ScVmm Private Cloud User                          Microsoft.Authorization/roleDefinitions  Azure Arc ScVmm Private Cloud User has permissions to use the ScVmm resources to deploy VMs.
+Azure Arc ScVmm Administrator role                          Microsoft.Authorization/roleDefinitions  Arc ScVmm VM Administrator has permissions to perform all ScVmm actions.
+FHIR Data Importer                                          Microsoft.Authorization/roleDefinitions  Role allows user or principal to read and import FHIR Data
+API Management Developer Portal Content Editor              Microsoft.Authorization/roleDefinitions  Can customize the developer portal, edit its content, and publish it.
+VM Scanner Operator                                         Microsoft.Authorization/roleDefinitions  Role that provides access to disk snapshot for security analysis.
+Elastic SAN Owner                                           Microsoft.Authorization/roleDefinitions  Allows for full access to all resources under Azure Elastic SAN including changing network security policies to unblock data path access
+Elastic SAN Reader                                          Microsoft.Authorization/roleDefinitions  Allows for control path read access to Azure Elastic SAN
+Desktop Virtualization Virtual Machine Contributor          Microsoft.Authorization/roleDefinitions  This role is in preview and subject to change. Provide permission to the Azure Virtual Desktop Resource Provider to create, delete, update, start, and stop virtual machines.
+Desktop Virtualization Power On Off Contributor             Microsoft.Authorization/roleDefinitions  This role is in preview and subject to change. Provide permission to the Azure Virtual Desktop Resource Provider to start and stop virtual machines.
+Desktop Virtualization Power On Contributor                 Microsoft.Authorization/roleDefinitions  This role is in preview and subject to change. Provide permission to the Azure Virtual Desktop Resource Provider to start virtual machines.
+Elastic SAN Volume Group Owner                              Microsoft.Authorization/roleDefinitions  Allows for full access to a volume group in Azure Elastic SAN including changing network security policies to unblock data path access
+Access Review Operator Service Role                         Microsoft.Authorization/roleDefinitions  Lets you grant Access Review System app permissions to discover and revoke access as needed by the access review process.
+Code Signing Identity Verifier                              Microsoft.Authorization/roleDefinitions  Manage identity or business verification requests. This role is in preview and subject to change.
+Video Indexer Restricted Viewer                             Microsoft.Authorization/roleDefinitions  Has access to view and search through all video's insights and transcription in the Video Indexer portal. No access to model customization, embedding of widget, downloading videos, or sharing the account.
+Monitoring Data Reader                                      Microsoft.Authorization/roleDefinitions  Can access the data in an Azure Monitor Workspace.
+Azure Kubernetes Fleet Manager RBAC Cluster Admin           Microsoft.Authorization/roleDefinitions  Lets you manage all resources in the fleet manager cluster.
+Azure Kubernetes Fleet Manager RBAC Reader                  Microsoft.Authorization/roleDefinitions  Allows read-only access to see most objects in a namespace. It does not allow viewing roles or role bindings. This role does not allow viewing Secrets, since reading the contents of Secrets enables access to ServiceAccount credentials in the namespace, which would allow API access as any ServiceAccount in the namespace (a form of privilege escalation).  Applying this role at cluster scope will give access across all namespaces.
+Azure Kubernetes Fleet Manager RBAC Admin                   Microsoft.Authorization/roleDefinitions  This role grants admin access - provides write permissions on most objects within a a namespace, with the exception of ResourceQuota object and the namespace object itself. Applying this role at cluster scope will give access across all namespaces.
+Azure Kubernetes Fleet Manager RBAC Writer                  Microsoft.Authorization/roleDefinitions  Allows read/write access to most objects in a namespace.This role does not allow viewing or modifying roles or role bindings. However, this role allows accessing Secrets as any ServiceAccount in the namespace, so it can be used to gain the API access levels of any ServiceAccount in the namespace.  Applying this role at cluster scope will give access across all namespaces.
+Azure Kubernetes Fleet Manager Contributor Role             Microsoft.Authorization/roleDefinitions  Grants access to read and write Azure Kubernetes Fleet Manager clusters
+Kubernetes Namespace User                                   Microsoft.Authorization/roleDefinitions  Allows a user to read namespace resources and retrieve kubeconfig for the cluster
+Data Labeling - Labeler                                     Microsoft.Authorization/roleDefinitions  Can label data in Labeling.
+Role Based Access Control Administrator (Preview)           Microsoft.Authorization/roleDefinitions  Manage access to Azure resources by assigning roles using Azure RBAC. This role does not allow you to manage access using other ways, such as Azure Policy.
+Template Spec Contributor                                   Microsoft.Authorization/roleDefinitions  Allows full access to Template Spec operations at the assigned scope.
+Template Spec Reader                                        Microsoft.Authorization/roleDefinitions  Allows read access to Template Specs at the assigned scope.
+Microsoft Sentinel Playbook Operator                        Microsoft.Authorization/roleDefinitions  Microsoft Sentinel Playbook Operator
+Deployment Environments User                                Microsoft.Authorization/roleDefinitions  Provides access to manage environment resources.
+Azure Spring Apps Connect Role                              Microsoft.Authorization/roleDefinitions  Azure Spring Apps Connect Role
+Azure Spring Apps Remote Debugging Role                     Microsoft.Authorization/roleDefinitions  Azure Spring Apps Remote Debugging Role
+AzureML Compute Operator                                    Microsoft.Authorization/roleDefinitions  Can access and perform CRUD operations on Machine Learning Services managed compute resources (including Notebook VMs).
+AzureML Registry User                                       Microsoft.Authorization/roleDefinitions  Can perform all actions on Machine Learning Services Registry assetsas well as get Registry resources.
+Azure Traffic Controller Configuration Manager              Microsoft.Authorization/roleDefinitions  Allows access to traffic controller resource. Also allows all confiuration Updates on traffic controller
+FHIR SMART User                                             Microsoft.Authorization/roleDefinitions  Role allows user to access FHIR Service according to SMART on FHIR specification
+Cognitive Services OpenAI Contributor                       Microsoft.Authorization/roleDefinitions  Full access including the ability to fine-tune, deploy and generate text
+Cognitive Services OpenAI User                              Microsoft.Authorization/roleDefinitions  Ability to view files, models, deployments. Readers can't make any changes They can inference
