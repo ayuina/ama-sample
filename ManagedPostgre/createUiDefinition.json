@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#",
+    "handler": "Microsoft.Azure.CreateUIDef",
+    "version": "0.1.2-preview",
+    "parameters": {
+      "basics": [
+        {}
+      ],
+      "steps": [
+        {
+          "name": "postgreConfig",
+          "label": "PostgreSql Flexible server settings",
+          "subLabel": {
+            "preValidation": "Configure the infrastructure settings",
+            "postValidation": "Done"
+          },
+          "bladeTitle": "PostgreSql settings blade",
+          "elements": [
+            {
+              "name": "postgreServerName",
+              "type": "Microsoft.Common.TextBox",
+              "label": "postgreServerName",
+              "defaultValue": "postgre1111",
+              "constraints" : {
+                "required": true
+              },
+              "visible": true
+            },
+            {
+              "name": "adminName",
+              "type": "Microsoft.Common.TextBox",
+              "label": "adminName",
+              "defaultValue": "sqladmin",
+              "constraints" : {
+                "required": true
+              },
+              "visible": true
+
+            },
+            {
+              "name": "adminPassword",
+              "type": "Microsoft.Common.PasswordBox",
+              "label": {
+                "password": "Password",
+                "confirmPassword": "Confirm password"
+              },
+              "constraints" : {
+                "required": true
+              },
+              "visible": true
+            },
+            {
+              "name": "postgreSubnetId",
+              "type": "Microsoft.Common.TextBox",
+              "label": "postgreSubnetId",
+              "constraints" : {
+                "required": true
+              },
+              "visible": true
+
+            },
+            {
+              "name": "privateDnsZoneId",
+              "type": "Microsoft.Common.TextBox",
+              "label": "privateDnsZoneId",
+              "constraints" : {
+                "required": true
+              },
+              "visible": true
+
+            }
+
+          ]
+        }],
+      "outputs": {
+        "region": "[location()]",
+        "postgreServerName": "[steps('postgreConfig').postgreServerName]",
+        "adminName": "[steps('postgreConfig').adminName]",
+        "adminPassword": "[steps('postgreConfig').adminPassword]",
+        "postgreSubnetId": "[steps('postgreConfig').postgreSubnetId]",
+        "privateDnsZoneId": "[steps('postgreConfig').privateDnsZoneId]"
+      }
+    }
+  }
