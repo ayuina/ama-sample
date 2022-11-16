@@ -14,6 +14,7 @@ az bicep build -f .\mainTemplate.bicep
 
 Remove-Item .\*.zip
 Compress-Archive -Path .\mainTemplate.json, .\createUiDefinition.json -DestinationPath $zip
+Remove-Item .\mainTemplate.json
 
 $stracc = 'amadefstr1110'
 $container = 'temp'
@@ -25,4 +26,6 @@ az storage blob generate-sas  --account-name $stracc --container-name $container
 echo $packurl
 
 az deployment group create -g 'ama-def-rg' -n "$([DateTime]::Now.Ticks)" -f .\deployDefinition.bicep -p packageUrl=$packurl definitionName=$def ownerPrincipalId=$ayumuInaba contributorPrincipalId=$shujiYamaguchi
+
+echo "Managed Application Definition : ${def}"
 ```
