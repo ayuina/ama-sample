@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.12.40.16777",
-      "templateHash": "8757172595581532115"
+      "templateHash": "18418951528828152740"
     }
   },
   "parameters": {
@@ -42,7 +42,8 @@
     }
   },
   "variables": {
-    "postgreSubnetId": "[resourceId(parameters('postgreVnetResourceGroup'), 'Microsoft.Network/virtualNetworks/subnets', parameters('postgreVnetName'), parameters('postgreSubnetName'))]"
+    "postgreSubnetId": "[resourceId(parameters('postgreVnetResourceGroup'), 'Microsoft.Network/virtualNetworks/subnets', parameters('postgreVnetName'), parameters('postgreSubnetName'))]",
+    "straccountName": "[format('str{0}', uniqueString(resourceGroup().id))]"
   },
   "resources": [
     {
@@ -73,6 +74,16 @@
           "geoRedundantBackup": "Disabled"
         }
       }
+    },
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2022-05-01",
+      "name": "[variables('straccountName')]",
+      "location": "[parameters('region')]",
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "kind": "StorageV2"
     }
   ]
 }

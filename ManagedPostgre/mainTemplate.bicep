@@ -42,6 +42,7 @@ resource postgreFlexible 'Microsoft.DBforPostgreSQL/flexibleServers@2021-06-01' 
 
 resource storage 'Microsoft.Storage/storageAccounts@2022-05-01' = {
   name: straccountName
+  location: region
   sku:{
     name: 'Standard_LRS'
   }
