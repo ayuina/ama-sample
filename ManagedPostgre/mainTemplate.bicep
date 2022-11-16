@@ -4,9 +4,13 @@ param postgreServerName string = 'postgre1115c'
 param adminName string = prefix
 @secure()
 param adminPassword string
-param postgreSubnetId string
+param postgreVnetResourceGroup string
+param postgreVnetName string
+param postgreSubnetName string
 param privateDnsZoneId string
 
+var postgreSubnetId = resourceId(postgreVnetResourceGroup, 'Microsoft.Network/virtualNetworks/subnets', postgreVnetName, postgreSubnetName)
+var straccountName = 'str${uniqueString(resourceGroup().id)}'
 
 resource postgreFlexible 'Microsoft.DBforPostgreSQL/flexibleServers@2021-06-01' = {
   name: postgreServerName
@@ -34,4 +38,12 @@ resource postgreFlexible 'Microsoft.DBforPostgreSQL/flexibleServers@2021-06-01' 
       geoRedundantBackup: 'Disabled'
     }
   }
+}
+
+resource storage 'Microsoft.Storage/storageAccounts@2022-05-01' = {
+  name: straccountName
+  sku:{
+    name: 'Standard_LRS'
+  }
+  kind: 'StorageV2'
 }

@@ -19,8 +19,8 @@
             {
               "name": "postgreServerName",
               "type": "Microsoft.Common.TextBox",
-              "label": "postgreServerName",
-              "defaultValue": "postgre1111",
+              "label": "Postgre Server Name",
+              "defaultValue": "postgreServerName",
               "constraints" : {
                 "required": true
               },
@@ -29,7 +29,7 @@
             {
               "name": "adminName",
               "type": "Microsoft.Common.TextBox",
-              "label": "adminName",
+              "label": "Name of Postgre Admin",
               "defaultValue": "sqladmin",
               "constraints" : {
                 "required": true
@@ -41,7 +41,7 @@
               "name": "adminPassword",
               "type": "Microsoft.Common.PasswordBox",
               "label": {
-                "password": "Password",
+                "password": "Password of Postgre Admin",
                 "confirmPassword": "Confirm password"
               },
               "constraints" : {
@@ -50,26 +50,41 @@
               "visible": true
             },
             {
-              "name": "postgreSubnetId",
-              "type": "Microsoft.Common.TextBox",
-              "label": "postgreSubnetId",
+              "name": "targetVnet",
+              "type": "Microsoft.Network.VirtualNetworkCombo",
+              "label":  {
+                "virtualNetwork": "Target Virtual Network",
+                "subnets": "Target Subnet"
+              },
+              "options": {
+                "hideExisting": false
+              },
               "constraints" : {
-                "required": true
+                "minAddressPrefixSize": "/24"
+              },
+              "subnets": {
+                "subnet1":{
+                  "label": "subnet1",
+                  "constraints": {
+                    "minAddressPrefixSize": "/28"
+                  }
+                }
               },
               "visible": true
 
             },
             {
-              "name": "privateDnsZoneId",
-              "type": "Microsoft.Common.TextBox",
-              "label": "privateDnsZoneId",
-              "constraints" : {
-                "required": true
-              },
-              "visible": true
-
+              "name": "privateDnsZone",
+              "type": "Microsoft.Solutions.ResourceSelector",
+              "label": "Private Dns Zone",
+              "resourceType": "Microsoft.Network/privateDnsZones",
+              "options": {
+                "filter": {
+                  "subscription": "onBasics",
+                  "location": "all"
+                }
+              }
             }
-
           ]
         }],
       "outputs": {
@@ -77,8 +92,10 @@
         "postgreServerName": "[steps('postgreConfig').postgreServerName]",
         "adminName": "[steps('postgreConfig').adminName]",
         "adminPassword": "[steps('postgreConfig').adminPassword]",
-        "postgreSubnetId": "[steps('postgreConfig').postgreSubnetId]",
-        "privateDnsZoneId": "[steps('postgreConfig').privateDnsZoneId]"
+        "postgreVnetResourceGroup":"[steps('postgreConfig').targetVnet.resourceGroup]",
+        "postgreVnetName": "[steps('postgreConfig').targetVnet.name]",
+        "postgreSubnetName": "[steps('postgreConfig').targetVnet.subnets.subnet1.name]",
+        "privateDnsZoneId": "[steps('postgreConfig').privateDnsZone.id]"
       }
     }
   }
