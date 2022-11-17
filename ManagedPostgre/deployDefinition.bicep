@@ -18,8 +18,7 @@ resource managedAppDef 'Microsoft.Solutions/applicationDefinitions@2021-07-01' =
     managementPolicy: { mode: 'Managed'}
     lockingPolicy:{
       allowedActions: [
-        'Microsoft.DBforPostgreSQL/*/read'
-        'Microsoft.DBforPostgreSQL/flexibleServers/restart/action'
+        'Microsoft.DBforPostgreSQL/*'
       ]
       allowedDataActions: []
     }

@@ -13,7 +13,7 @@ if(Test-Path .\mainTemplate.json)
 az bicep build -f .\mainTemplate.bicep
 
 Remove-Item .\*.zip
-Compress-Archive -Path .\mainTemplate.json, .\createUiDefinition.json -DestinationPath $zip
+Compress-Archive -Path .\mainTemplate.json, .\createUiDefinition.json, .\viewDefinition.json -DestinationPath $zip
 Remove-Item .\mainTemplate.json
 
 $stracc = 'amadefstr1110'
