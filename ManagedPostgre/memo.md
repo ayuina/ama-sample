@@ -28,4 +28,6 @@ echo $packurl
 az deployment group create -g 'ama-def-rg' -n "$([DateTime]::Now.Ticks)" -f .\deployDefinition.bicep -p packageUrl=$packurl definitionName=$def ownerPrincipalId=$ayumuInaba contributorPrincipalId=$shujiYamaguchi
 
 echo "Managed Application Definition : ${def}"
+
+
 ```

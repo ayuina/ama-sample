@@ -51,3 +51,10 @@ resource storage 'Microsoft.Storage/storageAccounts@2022-05-01' = {
     tag1: 'test'    
   }
 }
+
+output postgreEndpoint string = postgreFlexible.properties.fullyQualifiedDomainName
+output blobEndpoint string = storage.properties.primaryEndpoints.blob
+output tableEndpoint string = storage.properties.primaryEndpoints.table
+output queueEndpoint string = storage.properties.primaryEndpoints.queue
+output fileEndpoint string = storage.properties.primaryEndpoints.file
+
